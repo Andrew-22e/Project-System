@@ -1,0 +1,30 @@
+{
+  "name": "live-debate-gateway",
+  "version": "2.0.0",
+  "description": "直播辩论 - 中间层网关服务",
+  "main": "gateway.js",
+  "scripts": {
+    "start": "node gateway.js",
+    "dev": "nodemon gateway.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "uuid": "^8.3.2",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "gateway",
+    "middleware",
+    "live",
+    "debate",
+    "websocket"
+  ],
+  "author": "直播辩论系统开发团队",
+  "license": "MIT"
+}
+

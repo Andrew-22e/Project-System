@@ -1,0 +1,60 @@
+# 忽略 node_modules 依赖包
+node_modules/
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 目录和打包产物
+/dist/
+/build/
+/unpackage/
+/.temp/
+.cache/
+coverage/
+
+# 编译输出
+*.tsbuildinfo
+
+# 配置环境
+.env
+.env.*
+*.local
+
+# Mac 系统文件
+.DS_Store
+
+# 压缩包
+*.zip
+*.rar
+*.7z
+*.tar.gz
+deploy.tar.gz
+
+# IDE / 编辑器配置
+.idea/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+
+# 忽略微信小程序生成目录
+miniprogram/
+
+# VSCode本地调试文件
+.vscode-launch.json
+
+# 忽略后台和输出
+server.log
+*.bak
+
+# 忽略敏感配置项
+project.private.config.json
+ngrok-config.json
+ngrok.yml
+
+# PM2日志
+logs/
+*.log
+pm2-*.log

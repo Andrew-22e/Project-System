@@ -1,0 +1,11 @@
+[
+  {
+    "id": "e7502378-f805-43e6-9f08-962dc2d2cf47",
+    "name": "测试直播流",
+    "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "type": "hls",
+    "enabled": true,
+    "createdAt": "2025-10-30T06:26:43.833Z",
+    "updatedAt": "2025-10-30T06:26:43.834Z"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "mock_openid_1761787142555",
+    "nickName": "微信用户",
+    "avatarUrl": "https://thirdwx.qlogo.cn/mmopen/vi_32/POgEwh4mIHO4nibH0KlMECNjjGxQUq24ZEaGT4poC6icRiccVGKSyXwibcPq4BWmiaIGuG1icwxaQX6grC9VemZoJ8rg/132",
+    "createdAt": "2025-10-30T01:19:02.557Z",
+    "updatedAt": "2025-10-30T01:19:02.557Z",
+    "totalVotes": 0,
+    "joinedDebates": 0,
+    "status": "active"
+  },
+  {
+    "id": "mock_openid_1761787218695",
+    "nickName": "微信用户",
+    "avatarUrl": "https://thirdwx.qlogo.cn/mmopen/vi_32/POgEwh4mIHO4nibH0KlMECNjjGxQUq24ZEaGT4poC6icRiccVGKSyXwibcPq4BWmiaIGuG1icwxaQX6grC9VemZoJ8rg/132",
+    "createdAt": "2025-10-30T01:20:18.696Z",
+    "updatedAt": "2025-10-30T01:20:18.696Z",
+    "totalVotes": 0,
+    "joinedDebates": 0,
+    "status": "active"
+  },
+  {
+    "id": "owaF-13Ueukqwd_EFJqS-jDTI9-U",
+    "nickName": "微信用户",
+    "avatarUrl": "https://thirdwx.qlogo.cn/mmopen/vi_32/POgEwh4mIHO4nibH0KlMECNjjGxQUq24ZEaGT4poC6icRiccVGKSyXwibcPq4BWmiaIGuG1icwxaQX6grC9VemZoJ8rg/132",
+    "createdAt": "2025-10-30T01:22:41.925Z",
+    "updatedAt": "2025-10-30T01:22:41.925Z",
+    "totalVotes": 0,
+    "joinedDebates": 0,
+    "status": "active"
+  },
+  {
+    "id": "mock_openid_1761787590717",
+    "nickName": "用户29",
+    "avatarUrl": "/static/logo.png",
+    "createdAt": "2025-10-30T01:26:30.718Z",
+    "updatedAt": "2025-10-30T01:26:30.718Z",
+    "totalVotes": 0,
+    "joinedDebates": 0,
+    "status": "active"
+  },
+  {
+    "id": "mock_openid_1761813611968",
+    "nickName": "用户46",
+    "avatarUrl": "/static/logo.png",
+    "createdAt": "2025-10-30T08:40:11.968Z",
+    "updatedAt": "2025-10-30T08:40:11.968Z",
+    "totalVotes": 0,
+    "joinedDebates": 0,
+    "status": "active"
+  },
+  {
+    "id": "mock_openid_1761814634264",
+    "nickName": "微信用户",
+    "avatarUrl": "https://thirdwx.qlogo.cn/mmopen/vi_32/POgEwh4mIHO4nibH0KlMECNjjGxQUq24ZEaGT4poC6icRiccVGKSyXwibcPq4BWmiaIGuG1icwxaQX6grC9VemZoJ8rg/132",
+    "createdAt": "2025-10-30T08:57:14.266Z",
+    "updatedAt": "2025-10-30T08:57:14.266Z",
+    "totalVotes": 0,
+    "joinedDebates": 0,
+    "status": "active"
+  },
+  {
+    "id": "mock_openid_1761818721297",
+    "nickName": "用户402",
+    "avatarUrl": "/static/logo.png",
+    "createdAt": "2025-10-30T10:05:21.300Z",
+    "updatedAt": "2025-10-30T10:05:21.300Z",
+    "totalVotes": 0,
+    "joinedDebates": 0,
+    "status": "active"
+  },
+  {
+    "id": "mock_openid_1761877946992",
+    "nickName": "用户49",
+    "avatarUrl": "/static/logo.png",
+    "createdAt": "2025-10-31T02:32:26.993Z",
+    "updatedAt": "2025-10-31T02:32:26.993Z",
+    "totalVotes": 0,
+    "joinedDebates": 0,
+    "status": "active"
+  },
+  {
+    "id": "mock_openid_1761878726004",
+    "nickName": "用户86",
+    "avatarUrl": "/static/logo.png",
+    "createdAt": "2025-10-31T02:45:26.006Z",
+    "updatedAt": "2025-10-31T02:45:26.006Z",
+    "totalVotes": 0,
+    "joinedDebates": 0,
+    "status": "active"
+  },
+  {
+    "id": "mock_openid_1761879029814",
+    "nickName": "用户893",
+    "avatarUrl": "/static/logo.png",
+    "createdAt": "2025-10-31T02:50:29.814Z",
+    "updatedAt": "2025-10-31T02:50:29.814Z",
+    "totalVotes": 0,
+    "joinedDebates": 0,
+    "status": "active"
+  }
+]
