@@ -228,18 +228,37 @@ const apiProxy = createProxyMiddleware('/api', {
     },
     onProxyReq: (proxyReq, req, res) => {
         console.log(`📡 代理请求: ${req.method} ${req.path} -> ${LOCAL_SERVER_URL}${req.path}`);
+        // 确保POST请求的内容类型正确
+        if (req.method === 'POST' || req.method === 'PUT') {
+            proxyReq.setHeader('Content-Type', 'application/json');
+        }
+    },
+    onProxyRes: (proxyRes, req, res) => {
+        console.log(`✅ 代理响应: ${req.path} <- ${proxyRes.statusCode} ${LOCAL_SERVER_URL}`);
+        // 确保CORS头正确设置
+        proxyRes.headers['Access-Control-Allow-Origin'] = '*';
+        proxyRes.headers['Access-Control-Allow-Methods'] = 'GET, POST, PUT, DELETE, OPTIONS';
+        proxyRes.headers['Access-Control-Allow-Headers'] = 'Content-Type, Authorization, X-Requested-With';
     },
     onError: (err, req, res) => {
         console.error('❌ 代理错误:', err);
         res.status(502).json({
             code: 502,
             message: '后端服务暂时不可用',
-            data: null
+            data: null,
+            error: err.message
         });
     }
 });
 
 app.use('/api', apiProxy);
+
+// 为所有请求添加详细日志记录
+app.use((req, res, next) => {
+    console.log(`🔍 收到请求: ${req.method} ${req.path} 来自 ${req.ip}`);
+    console.log(`🔍 请求头:`, req.headers);
+    next();
+});
 // ==================== API 代理配置结束 ====================
 
 // 使用前端代理（必须在API代理之后）
