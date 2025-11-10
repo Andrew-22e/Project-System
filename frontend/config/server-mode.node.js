@@ -11,6 +11,24 @@ const BACKEND_SERVER_URL = process.env.GATEWAY_URL || 'http://localhost:8080'; /
 // 是否优先使用后端服务器
 // 在三层架构中，我们将API请求直接代理到网关，所以设为true
 const PRIORITIZE_BACKEND_SERVER = true; // 设为 true，API请求直接代理到网关服务器
+
+// 添加调试日志
+console.log('📋 frontend/config/server-mode.node.js 配置已加载:');
+console.log(`   - USE_MOCK_SERVER: ${USE_MOCK_SERVER}`);
+console.log(`   - LOCAL_SERVER_URL: ${LOCAL_SERVER_URL}`);
+console.log(`   - DEPLOY_PORT: ${DEPLOY_PORT}`);
+console.log(`   - REAL_SERVER_URL: ${REAL_SERVER_URL}`);
+console.log(`   - BACKEND_SERVER_URL: ${BACKEND_SERVER_URL} (网关地址)`);
+console.log(`   - PRIORITIZE_BACKEND_SERVER: ${PRIORITIZE_BACKEND_SERVER}`);
+
+// 添加调试日志
+console.log('📋 frontend/config/server-mode.node.js 配置已加载:');
+console.log(`   - USE_MOCK_SERVER: ${USE_MOCK_SERVER}`);
+console.log(`   - LOCAL_SERVER_URL: ${LOCAL_SERVER_URL}`);
+console.log(`   - DEPLOY_PORT: ${DEPLOY_PORT}`);
+console.log(`   - REAL_SERVER_URL: ${REAL_SERVER_URL}`);
+console.log(`   - BACKEND_SERVER_URL: ${BACKEND_SERVER_URL} (网关地址)`);
+console.log(`   - PRIORITIZE_BACKEND_SERVER: ${PRIORITIZE_BACKEND_SERVER}`);
 const REAL_WECHAT_CONFIG = {
     appid: 'wx94289b0d2ca7a802',
     secret: '10409c1193a326a7b328f675b1776195'
